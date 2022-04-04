@@ -1,0 +1,28 @@
+############################################ INSTRUCTIONS
+# Save this in the document root directory. Add your custom
+# rules under the "EDITABLE" section but leave the rest.
+
+############################################ DO NOT EDIT
+# Ignore everything in root, wp-content/ and in the plugins
+# and themes directories.
+/*
+wp-content/*
+wp-content/mu-plugins/*
+wp-content/plugins/*
+wp-content/themes/*
+node_modules/
+
+############################################ DO NOT EDIT
+# Allow tracking of specifically named components in the
+# plugins and themes directories and also allow this file.
+!wp-content/
+!wp-content/themes/
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!.gitignore
+
+############################################ EDITABLE 
+# Specifically name any directories or files you're
+# building or editing to be tracked.
+# Example: !wp-content/themes/[your theme name]/
+!wp-content/themes/gbhem/
